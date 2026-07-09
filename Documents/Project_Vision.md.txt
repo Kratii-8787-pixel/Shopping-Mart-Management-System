@@ -1,0 +1,8 @@
+# Project Vision
+
+## Project Name
+Shopping Mart Management System
+
+## Vision Statement
+
+The Shopping Mart Management System is a desktop application developed to simplify the daily operations of a shopping mart. It allows users to manage products, customers, inventory, billing, and sales efficiently through a user-friendly interface. The system aims to reduce manual work, minimize errors, and improve business productivity by maintaining all records digitally.
