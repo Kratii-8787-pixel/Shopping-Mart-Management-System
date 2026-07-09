@@ -1,0 +1,21 @@
+# Project Objectives
+
+1. Develop a user-friendly desktop application.
+
+2. Store all shopping mart records digitally.
+
+3. Manage products efficiently.
+
+4. Generate customer bills.
+
+5. Maintain inventory.
+
+6. Record daily sales.
+
+7. Reduce paperwork.
+
+8. Improve data accuracy.
+
+9. Provide quick product searching.
+
+10. Learn Java Swing, JDBC, MySQL, Git, and Software Engineering.
