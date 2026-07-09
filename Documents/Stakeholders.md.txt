@@ -1,0 +1,16 @@
+# Stakeholders
+
+## Shop Owner
+Manages the complete shopping mart.
+
+## Cashier
+Creates bills and handles customer purchases.
+
+## Inventory Manager
+Maintains product stock.
+
+## Customer
+Purchases products.
+
+## System Administrator
+Maintains the software and database.
