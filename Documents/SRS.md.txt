@@ -1,0 +1,33 @@
+# SRS (software Requirement Specification)
+
+## 1. Introduction 
+
+### Project name 
+    Shopping Mart Management System
+
+#### 1.Purpose
+
+The shopping Mart Management System is a desktop-based application developed using java swing, JDBC, and MYSQL. The purpose of this software is to manage products , customers, inventory, and billing in a shopping mart efficiently. It replaces manual record-keeping with a digital system that improves accuracy, speed, and productivity.
+
+
+#### 2.Project Vision 
+
+To develop a reliable, user friendly, and efficient desktop application that helps shopping mart owners manage daily business operations digitally while reducing paperwork and improving business efficiently.
+
+
+## 3. Problem Statement
+
+Many small shopping marts still manage products, customers, inventory, and billing manually. Manual systems are time-consuming, error-prone, and difficult to maintain. There is a need for a computerized system that can efficiently manage daily operations, store records securely, and generate bills quickly.
+
+
+## 4. Objectives
+
+- Develop a desktop application using Java Swing.
+- Connect the application with MySQL using JDBC.
+- Manage products efficiently.
+- Maintain customer records.
+- Generate customer bills.
+- Track inventory.
+- Record sales transactions.
+- Improve accuracy and reduce paperwork.
+- Provide a simple and user-friendly interface.
