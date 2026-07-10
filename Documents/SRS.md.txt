@@ -31,3 +31,15 @@ Many small shopping marts still manage products, customers, inventory, and billi
 - Record sales transactions.
 - Improve accuracy and reduce paperwork.
 - Provide a simple and user-friendly interface.
+
+
+
+
+
+---
+Author: Krati Srivastava
+Project: Shopping Mart Management System
+Technology: Java Swing, JDBC, MySQL, NetBeans
+Version: 1.0
+Status: In Progress
+Last Updated: 11 July 2026
