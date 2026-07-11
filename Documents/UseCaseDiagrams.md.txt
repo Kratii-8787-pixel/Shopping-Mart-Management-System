@@ -1,0 +1,40 @@
+Actors
+
+1. Admin
+2. Owner
+3. Cashier
+4. Inventory Manager
+
+
+Use case Diagram (Text Version)
+
+                    EasyMart Management System
+
+                       +----------------------+
+Admin ---------------->| Login               |
+Admin ---------------->| Manage Users        |
+Admin ---------------->| Manage Products     |
+Admin ---------------->| Manage Categories   |
+Admin ---------------->| View Reports        |
+Admin ---------------->| Logout              |
+
+Owner ---------------> | Login              |
+Owner ---------------> | Dashboard          |
+Owner ---------------> | View Reports       |
+Owner ---------------> | View Inventory     |
+Owner ---------------> | Logout             |
+
+Cashier -------------> | Login             |
+Cashier -------------> | Search Product    |
+Cashier -------------> | Manage Customer   |
+Cashier -------------> | Generate Bill     |
+Cashier -------------> | Print Bill        |
+Cashier -------------> | Logout            |
+
+Inventory Manager ---> | Login            |
+Inventory Manager ---> | Add Product      |
+Inventory Manager ---> | Update Product   |
+Inventory Manager ---> | Delete Product   |
+Inventory Manager ---> | Manage Categories|
+Inventory Manager ---> | Update Stock     |
+Inventory Manager ---> | Logout           |

@@ -1,0 +1,106 @@
+Entity 1 - Users
+
+
+UserID (PK)
+Username
+Password
+Role
+Name
+Email
+Phone
+Status
+
+
+Entity 2 - Category
+
+CategoryID (PK)
+CategoryName
+Description
+
+Entity 3 product 
+
+
+ProductID (PK)
+ProductName
+Price
+Quantity
+CategoryID (FK)
+
+
+
+Entity 4 Customer
+
+
+CustomerID (PK)
+CustomerName
+Phone
+Email
+Address
+
+
+Entity 5 - Bill
+
+
+BillID (PK)
+CustomerID (FK)
+CashierID (FK)
+BillDate
+TotalAmount
+
+
+
+Entity 6 - Bill_Items
+
+
+BillItemID (PK)
+BillID (FK)
+ProductID (FK)
+Quantity
+Price
+Subtotal
+
+
+
+Third Normal Form (3NF).
+
+
+                                         Relationships
+
+Category
+    │
+    │ 1
+    │
+    │
+    │ N
+Product
+
+Customer
+     │
+     │1
+     │
+     │N
+   Bill
+
+    User
+     │
+     │1
+     │
+     │N
+    Bill
+
+    Bill
+     │
+     │1
+     │
+     │N
+  Bill_Items
+
+   Product
+     │
+     │1
+     │
+     │N
+  Bill_Items
+
+
+

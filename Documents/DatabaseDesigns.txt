@@ -1,0 +1,81 @@
+Database Tables
+
+
+users
+
+
+| Column    | Type         |
+| --------- | ------------ |
+| user_id   | INT          |
+| username  | VARCHAR(50)  |
+| password  | VARCHAR(255) |
+| role      | VARCHAR(30)  |
+| full_name | VARCHAR(100) |
+| email     | VARCHAR(100) |
+| phone     | VARCHAR(15)  |
+| status    | VARCHAR(20)  |
+
+
+
+categories
+
+
+| Column        | Type         |
+| ------------- | ------------ |
+| category_id   | INT          |
+| category_name | VARCHAR(100) |
+| description   | TEXT         |
+
+
+
+products
+
+
+| Column       | Type         |
+| ------------ | ------------ |
+| product_id   | INT          |
+| product_name | VARCHAR(100) |
+| price        | DECIMAL      |
+| quantity     | INT          |
+| category_id  | INT          |
+
+
+
+customers
+
+
+| Column        | Type         |
+| ------------- | ------------ |
+| customer_id   | INT          |
+| customer_name | VARCHAR(100) |
+| phone         | VARCHAR(15)  |
+| email         | VARCHAR(100) |
+| address       | TEXT         |
+
+
+
+bills
+
+
+| Column       | Type    |
+| ------------ | ------- |
+| bill_id      | INT     |
+| customer_id  | INT     |
+| cashier_id   | INT     |
+| bill_date    | DATE    |
+| total_amount | DECIMAL |
+
+
+
+bill_items
+
+
+
+| Column       | Type    |
+| ------------ | ------- |
+| bill_item_id | INT     |
+| bill_id      | INT     |
+| product_id   | INT     |
+| quantity     | INT     |
+| price        | DECIMAL |
+| subtotal     | DECIMAL |
