@@ -33,13 +33,151 @@ Many small shopping marts still manage products, customers, inventory, and billi
 - Provide a simple and user-friendly interface.
 
 
+## 5. Project Scope
+
+The Shopping Mart Management System will provide a desktop-based solution for managing shopping mart operations.
+
+The system includes:
+
+- User authentication (Login)
+- Product management
+- Customer management
+- Billing system
+- Inventory management
+- Sales management
+- Database connectivity using MySQL
+- Report generation
+
+The system does not include:
+
+- Online shopping
+- Online payment gateway
+- Mobile application
+- Barcode scanner integration
+- Multi-store management
+
+
+## 6. Stakeholders
+
+### Shop Owner
+Manages the entire shopping mart and monitors sales.
+
+### Cashier
+Generates customer bills and handles purchases.
+
+### Inventory Manager
+Maintains stock levels and updates products.
+
+### Customer
+Purchases products and receives bills.
+
+### System Administrator
+Maintains the application and database.
+
+
+
+## 7. Functional Requirements
+
+The system shall:
+
+FR-01 Allow users to log in securely.
+
+FR-02 Add new products.
+
+FR-03 Update product information.
+
+FR-04 Delete products.
+
+FR-05 Search products.
+
+FR-06 Manage customer details.
+
+FR-07 Generate bills.
+
+FR-08 Calculate total amount automatically.
+
+FR-09 Update inventory after each sale.
+
+FR-10 Store all records in MySQL database.
+
+FR-11 Display sales reports.
+
+
+
+## 8. Non-Functional Requirements
+
+- The system should be easy to use.
+- Response time should be less than 3 seconds.
+- Data should be stored securely.
+- The application should be reliable.
+- The interface should be simple and user-friendly.
+- The system should be maintainable.
+- The application should run on Windows 10 and Windows 11.
+
+
+## 9. Assumptions
+
+- Java JDK is installed.
+- MySQL Server is installed.
+- NetBeans IDE is installed.
+- The database server is running.
+- Users have basic computer knowledge.
+
+
+## 10. Constraints
+
+- Desktop application only.
+- Internet connection is not required.
+- Supports only MySQL database.
+- Developed using Java Swing.
+- Limited to a single shopping mart.
+
+
+
+## 11. Future Enhancements
+
+- Barcode Scanner Support
+- QR Code Billing
+- Online Payment
+- Email Invoice
+- Mobile Application
+- Cloud Database
+- Multi-Shop Support
+- Sales Analytics Dashboard
+
+
+## 12. Glossary
+
+JDBC – Java Database Connectivity
+
+GUI – Graphical User Interface
+
+DBMS – Database Management System
+
+SRS – Software Requirement Specification
+
+SQL – Structured Query Language
+
+
+
+## 13. Version History
+
+| Version  | Date         | Description          |
+|----------|--------------|----------------------|
+| 1.0      | 11 July 2026 | Initial SRS Document |
+
+
 
 
 
 ---
+
 Author: Krati Srivastava
+
 Project: Shopping Mart Management System
+
 Technology: Java Swing, JDBC, MySQL, NetBeans
+
 Version: 1.0
-Status: In Progress
-Last Updated: 11 July 2026
+
+Status: Phase 1 Completed
